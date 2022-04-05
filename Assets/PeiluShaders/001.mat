@@ -2,14 +2,15 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 001
   m_Shader: {fileID: -6465566751694194690, guid: 38649ab0065ed413a80328e31ccd9b46, type: 3}
-  m_ShaderKeywords: 
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -34,13 +35,15 @@ Material:
     m_Ints: []
     m_Floats:
     - _EmissionIntensity: 0.3
-    - _Emission_Intensity: 0.4
+    - _Emission_Intensity: 0.59
     - _MaxAlpha: 2.05
     - _Max_Alpha: 1
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Speed: 3.33
     - _StripDensity: 2
-    - _Strip_Density: 1.19
+    - _Strip_Density: 0.77
+    - _Up_side_down: 0
     m_Colors: []
   m_BuildTextureStacks: []
 --- !u!114 &2598785922364708486
